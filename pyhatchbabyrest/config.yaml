@@ -1,0 +1,15 @@
+name: "Hatch BLE Control"
+version: "1.0"
+slug: "pyhatchbabyrest"
+description: "Control Hatch Rest 1st Gen over BLE using pyhatchbabyrest and MQTT"
+arch:
+  - amd64
+  - aarch64
+  - armv7
+startup: application
+boot: auto
+host_network: true
+privileged:
+  - bluetooth
+options: {}
+schema: {}
